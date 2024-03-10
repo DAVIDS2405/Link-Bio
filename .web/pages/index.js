@@ -25,30 +25,6 @@ export function Link_2e43ca7e45bbdb194b7fba7089930c67 () {
   )
 }
 
-export function Link_27befbae74afac868169119185fec794 () {
-
-
-  return (
-    <RadixThemesLink asChild={true} css={{"width": "100%", "text-decoration": "none", "&:hover": "none", "cursor": "url('cursor/cursorclick.png'), pointer"}} target={isTrue(true) ? `_blank` : ``}>
-  <NextLink href={`https://www.tiktok.com/@davids2405`} passHref={true}>
-  <RadixThemesButton css={{"padding": "1rem", "width": "100%", "height": "100%", "display": "flex", "alignItems": "center", "justify-content": "start", "whiteSpace": "normal", "color": "#FFFFFF", "background-color": "#171F26", "&:hover": {"background-color": "#087EC4"}, "cursor": "url('cursor/cursorclick.png'), pointer"}} radius={`large`}>
-  <RadixThemesFlex align={`center`} direction={`row`} gap={`4`}>
-  <LucideMusic2Icon css={{"color": "var(--current-color)"}} size={30}/>
-  <RadixThemesFlex align={`start`} direction={`column`} gap={`2`}>
-  <RadixThemesText as={`p`} css={{"color": "#FFFFFF"}} size={`2`}>
-  {`Tiktok`}
-</RadixThemesText>
-  <RadixThemesText as={`p`} css={{"color": "#C3C7CB"}} size={`1`}>
-  {`Cortos sobre informática`}
-</RadixThemesText>
-</RadixThemesFlex>
-</RadixThemesFlex>
-</RadixThemesButton>
-</NextLink>
-</RadixThemesLink>
-  )
-}
-
 export function Link_901215f6aec06cceb9c5fb307c72086c () {
 
 
@@ -68,66 +44,6 @@ export function Link_901215f6aec06cceb9c5fb307c72086c () {
 </RadixThemesFlex>
 </RadixThemesFlex>
 </RadixThemesButton>
-</NextLink>
-</RadixThemesLink>
-  )
-}
-
-export function Link_bf80e492e22c87b1224b6ba4f9f3480e () {
-
-
-  return (
-    <RadixThemesLink asChild={true} css={{"width": "100%", "text-decoration": "none", "&:hover": "none", "cursor": "url('cursor/cursorclick.png'), pointer"}} target={isTrue(true) ? `_blank` : ``}>
-  <NextLink href={`mailto:sebastian2405lucero@hotmail.com`} passHref={true}>
-  <RadixThemesButton css={{"padding": "1rem", "width": "100%", "height": "100%", "display": "flex", "alignItems": "center", "justify-content": "start", "whiteSpace": "normal", "color": "#FFFFFF", "background-color": "#171F26", "&:hover": {"background-color": "#087EC4"}, "cursor": "url('cursor/cursorclick.png'), pointer"}} radius={`large`}>
-  <RadixThemesFlex align={`center`} direction={`row`} gap={`4`}>
-  <LucideMailIcon css={{"color": "var(--current-color)"}} size={30}/>
-  <RadixThemesFlex align={`start`} direction={`column`} gap={`2`}>
-  <RadixThemesText as={`p`} css={{"color": "#FFFFFF"}} size={`2`}>
-  {`Email`}
-</RadixThemesText>
-  <RadixThemesText as={`p`} css={{"color": "#C3C7CB"}} size={`1`}>
-  {`Correo electrónico principal`}
-</RadixThemesText>
-</RadixThemesFlex>
-</RadixThemesFlex>
-</RadixThemesButton>
-</NextLink>
-</RadixThemesLink>
-  )
-}
-
-export function Link_e3788ff3eea2776ffdbbbaa23d8d1731 () {
-
-
-  return (
-    <RadixThemesLink asChild={true} css={{"width": "100%", "text-decoration": "none", "&:hover": "none", "cursor": "url('cursor/cursorclick.png'), pointer"}} target={isTrue(true) ? `_blank` : ``}>
-  <NextLink href={`https://www.linkedin.com/in/david-sebastian-basantes-lucero-40bb97216/`} passHref={true}>
-  <RadixThemesButton css={{"padding": "1rem", "width": "100%", "height": "100%", "display": "flex", "alignItems": "center", "justify-content": "start", "whiteSpace": "normal", "color": "#FFFFFF", "background-color": "#171F26", "&:hover": {"background-color": "#087EC4"}, "cursor": "url('cursor/cursorclick.png'), pointer"}} radius={`large`}>
-  <RadixThemesFlex align={`center`} direction={`row`} gap={`4`}>
-  <LucideLinkedinIcon css={{"color": "var(--current-color)"}} size={30}/>
-  <RadixThemesFlex align={`start`} direction={`column`} gap={`2`}>
-  <RadixThemesText as={`p`} css={{"color": "#FFFFFF"}} size={`2`}>
-  {`LinkedIn`}
-</RadixThemesText>
-  <RadixThemesText as={`p`} css={{"color": "#C3C7CB"}} size={`1`}>
-  {`Perfil de LinkedIn`}
-</RadixThemesText>
-</RadixThemesFlex>
-</RadixThemesFlex>
-</RadixThemesButton>
-</NextLink>
-</RadixThemesLink>
-  )
-}
-
-export function Link_6bf855c22332ddc310f44965c032d475 () {
-
-
-  return (
-    <RadixThemesLink asChild={true} css={{"text-decoration": "none", "&:hover": "none", "cursor": "url('cursor/cursorclick.png'), pointer"}} target={isTrue(true) ? `_blank` : ``}>
-  <NextLink href={`https://github.com/DAVIDS2405`} passHref={true}>
-  <LucideGithubIcon css={{"color": "white", "border": "2px solid", "borderColor": "white", "borderRadius": "100%", "padding": "0.082rem"}} size={35}/>
 </NextLink>
 </RadixThemesLink>
   )
@@ -172,6 +88,90 @@ export function Link_204cac4b30f87b78c0dd9afe96b27742 () {
 </RadixThemesText>
   <RadixThemesText as={`p`} css={{"color": "#C3C7CB"}} size={`1`}>
   {`Cuenta oficial`}
+</RadixThemesText>
+</RadixThemesFlex>
+</RadixThemesFlex>
+</RadixThemesButton>
+</NextLink>
+</RadixThemesLink>
+  )
+}
+
+export function Link_27befbae74afac868169119185fec794 () {
+
+
+  return (
+    <RadixThemesLink asChild={true} css={{"width": "100%", "text-decoration": "none", "&:hover": "none", "cursor": "url('cursor/cursorclick.png'), pointer"}} target={isTrue(true) ? `_blank` : ``}>
+  <NextLink href={`https://www.tiktok.com/@davids2405`} passHref={true}>
+  <RadixThemesButton css={{"padding": "1rem", "width": "100%", "height": "100%", "display": "flex", "alignItems": "center", "justify-content": "start", "whiteSpace": "normal", "color": "#FFFFFF", "background-color": "#171F26", "&:hover": {"background-color": "#087EC4"}, "cursor": "url('cursor/cursorclick.png'), pointer"}} radius={`large`}>
+  <RadixThemesFlex align={`center`} direction={`row`} gap={`4`}>
+  <LucideMusic2Icon css={{"color": "var(--current-color)"}} size={30}/>
+  <RadixThemesFlex align={`start`} direction={`column`} gap={`2`}>
+  <RadixThemesText as={`p`} css={{"color": "#FFFFFF"}} size={`2`}>
+  {`Tiktok`}
+</RadixThemesText>
+  <RadixThemesText as={`p`} css={{"color": "#C3C7CB"}} size={`1`}>
+  {`Cortos sobre informática`}
+</RadixThemesText>
+</RadixThemesFlex>
+</RadixThemesFlex>
+</RadixThemesButton>
+</NextLink>
+</RadixThemesLink>
+  )
+}
+
+export function Link_bf80e492e22c87b1224b6ba4f9f3480e () {
+
+
+  return (
+    <RadixThemesLink asChild={true} css={{"width": "100%", "text-decoration": "none", "&:hover": "none", "cursor": "url('cursor/cursorclick.png'), pointer"}} target={isTrue(true) ? `_blank` : ``}>
+  <NextLink href={`mailto:sebastian2405lucero@hotmail.com`} passHref={true}>
+  <RadixThemesButton css={{"padding": "1rem", "width": "100%", "height": "100%", "display": "flex", "alignItems": "center", "justify-content": "start", "whiteSpace": "normal", "color": "#FFFFFF", "background-color": "#171F26", "&:hover": {"background-color": "#087EC4"}, "cursor": "url('cursor/cursorclick.png'), pointer"}} radius={`large`}>
+  <RadixThemesFlex align={`center`} direction={`row`} gap={`4`}>
+  <LucideMailIcon css={{"color": "var(--current-color)"}} size={30}/>
+  <RadixThemesFlex align={`start`} direction={`column`} gap={`2`}>
+  <RadixThemesText as={`p`} css={{"color": "#FFFFFF"}} size={`2`}>
+  {`Email`}
+</RadixThemesText>
+  <RadixThemesText as={`p`} css={{"color": "#C3C7CB"}} size={`1`}>
+  {`Correo electrónico principal`}
+</RadixThemesText>
+</RadixThemesFlex>
+</RadixThemesFlex>
+</RadixThemesButton>
+</NextLink>
+</RadixThemesLink>
+  )
+}
+
+export function Link_6bf855c22332ddc310f44965c032d475 () {
+
+
+  return (
+    <RadixThemesLink asChild={true} css={{"text-decoration": "none", "&:hover": "none", "cursor": "url('cursor/cursorclick.png'), pointer"}} target={isTrue(true) ? `_blank` : ``}>
+  <NextLink href={`https://github.com/DAVIDS2405`} passHref={true}>
+  <LucideGithubIcon css={{"color": "white", "border": "2px solid", "borderColor": "white", "borderRadius": "100%", "padding": "0.082rem"}} size={35}/>
+</NextLink>
+</RadixThemesLink>
+  )
+}
+
+export function Link_e3788ff3eea2776ffdbbbaa23d8d1731 () {
+
+
+  return (
+    <RadixThemesLink asChild={true} css={{"width": "100%", "text-decoration": "none", "&:hover": "none", "cursor": "url('cursor/cursorclick.png'), pointer"}} target={isTrue(true) ? `_blank` : ``}>
+  <NextLink href={`https://www.linkedin.com/in/david-sebastian-basantes-lucero-40bb97216/`} passHref={true}>
+  <RadixThemesButton css={{"padding": "1rem", "width": "100%", "height": "100%", "display": "flex", "alignItems": "center", "justify-content": "start", "whiteSpace": "normal", "color": "#FFFFFF", "background-color": "#171F26", "&:hover": {"background-color": "#087EC4"}, "cursor": "url('cursor/cursorclick.png'), pointer"}} radius={`large`}>
+  <RadixThemesFlex align={`center`} direction={`row`} gap={`4`}>
+  <LucideLinkedinIcon css={{"color": "var(--current-color)"}} size={30}/>
+  <RadixThemesFlex align={`start`} direction={`column`} gap={`2`}>
+  <RadixThemesText as={`p`} css={{"color": "#FFFFFF"}} size={`2`}>
+  {`LinkedIn`}
+</RadixThemesText>
+  <RadixThemesText as={`p`} css={{"color": "#C3C7CB"}} size={`1`}>
+  {`Perfil de LinkedIn`}
 </RadixThemesText>
 </RadixThemesFlex>
 </RadixThemesFlex>
