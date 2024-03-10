@@ -11,6 +11,42 @@ import NextHead from "next/head"
 
 
 
+export function Link_6bf855c22332ddc310f44965c032d475 () {
+
+
+  return (
+    <RadixThemesLink asChild={true} css={{"text-decoration": "none", "&:hover": "none", "cursor": "url('cursor/cursorclick.png'), pointer"}} target={isTrue(true) ? `_blank` : ``}>
+  <NextLink href={`https://github.com/DAVIDS2405`} passHref={true}>
+  <LucideGithubIcon css={{"color": "white", "border": "2px solid", "borderColor": "white", "borderRadius": "100%", "padding": "0.082rem"}} size={35}/>
+</NextLink>
+</RadixThemesLink>
+  )
+}
+
+export function Link_204cac4b30f87b78c0dd9afe96b27742 () {
+
+
+  return (
+    <RadixThemesLink asChild={true} css={{"width": "100%", "text-decoration": "none", "&:hover": "none", "cursor": "url('cursor/cursorclick.png'), pointer"}} target={isTrue(true) ? `_blank` : ``}>
+  <NextLink href={`https://www.instagram.com/david2405s/`} passHref={true}>
+  <RadixThemesButton css={{"padding": "1rem", "width": "100%", "height": "100%", "display": "flex", "alignItems": "center", "justify-content": "start", "whiteSpace": "normal", "color": "#FFFFFF", "background-color": "#171F26", "&:hover": {"background-color": "#087EC4"}, "cursor": "url('cursor/cursorclick.png'), pointer"}} radius={`large`}>
+  <RadixThemesFlex align={`center`} direction={`row`} gap={`4`}>
+  <LucideInstagramIcon css={{"color": "var(--current-color)"}} size={30}/>
+  <RadixThemesFlex align={`start`} direction={`column`} gap={`2`}>
+  <RadixThemesText as={`p`} css={{"color": "#FFFFFF"}} size={`2`}>
+  {`Instagram`}
+</RadixThemesText>
+  <RadixThemesText as={`p`} css={{"color": "#C3C7CB"}} size={`1`}>
+  {`Cuenta oficial`}
+</RadixThemesText>
+</RadixThemesFlex>
+</RadixThemesFlex>
+</RadixThemesButton>
+</NextLink>
+</RadixThemesLink>
+  )
+}
+
 export function Link_27befbae74afac868169119185fec794 () {
 
 
@@ -35,21 +71,45 @@ export function Link_27befbae74afac868169119185fec794 () {
   )
 }
 
-export function Link_204cac4b30f87b78c0dd9afe96b27742 () {
+export function Link_7f95acf1645cfa0e73b7a5935803984c () {
 
 
   return (
     <RadixThemesLink asChild={true} css={{"width": "100%", "text-decoration": "none", "&:hover": "none", "cursor": "url('cursor/cursorclick.png'), pointer"}} target={isTrue(true) ? `_blank` : ``}>
-  <NextLink href={`https://www.instagram.com/david2405s/`} passHref={true}>
+  <NextLink href={`https://www.twitch.tv/david2405s`} passHref={true}>
   <RadixThemesButton css={{"padding": "1rem", "width": "100%", "height": "100%", "display": "flex", "alignItems": "center", "justify-content": "start", "whiteSpace": "normal", "color": "#FFFFFF", "background-color": "#171F26", "&:hover": {"background-color": "#087EC4"}, "cursor": "url('cursor/cursorclick.png'), pointer"}} radius={`large`}>
   <RadixThemesFlex align={`center`} direction={`row`} gap={`4`}>
-  <LucideInstagramIcon css={{"color": "var(--current-color)"}} size={30}/>
+  <LucideTwitchIcon css={{"color": "var(--current-color)"}} size={30}/>
   <RadixThemesFlex align={`start`} direction={`column`} gap={`2`}>
   <RadixThemesText as={`p`} css={{"color": "#FFFFFF"}} size={`2`}>
-  {`Instagram`}
+  {`Twitch`}
 </RadixThemesText>
   <RadixThemesText as={`p`} css={{"color": "#C3C7CB"}} size={`1`}>
-  {`Cuenta oficial`}
+  {`Directos sobre programación`}
+</RadixThemesText>
+</RadixThemesFlex>
+</RadixThemesFlex>
+</RadixThemesButton>
+</NextLink>
+</RadixThemesLink>
+  )
+}
+
+export function Link_901215f6aec06cceb9c5fb307c72086c () {
+
+
+  return (
+    <RadixThemesLink asChild={true} css={{"width": "100%", "text-decoration": "none", "&:hover": "none", "cursor": "url('cursor/cursorclick.png'), pointer"}} target={isTrue(true) ? `_blank` : ``}>
+  <NextLink href={`https://www.youtube.com/@d4vid924`} passHref={true}>
+  <RadixThemesButton css={{"padding": "1rem", "width": "100%", "height": "100%", "display": "flex", "alignItems": "center", "justify-content": "start", "whiteSpace": "normal", "color": "#FFFFFF", "background-color": "#171F26", "&:hover": {"background-color": "#087EC4"}, "cursor": "url('cursor/cursorclick.png'), pointer"}} radius={`large`}>
+  <RadixThemesFlex align={`center`} direction={`row`} gap={`4`}>
+  <LucideYoutubeIcon css={{"color": "var(--current-color)"}} size={30}/>
+  <RadixThemesFlex align={`start`} direction={`column`} gap={`2`}>
+  <RadixThemesText as={`p`} css={{"color": "#FFFFFF"}} size={`2`}>
+  {`YouTube`}
+</RadixThemesText>
+  <RadixThemesText as={`p`} css={{"color": "#C3C7CB"}} size={`1`}>
+  {`Tutoriales semanales`}
 </RadixThemesText>
 </RadixThemesFlex>
 </RadixThemesFlex>
@@ -83,56 +143,6 @@ export function Link_bf80e492e22c87b1224b6ba4f9f3480e () {
   )
 }
 
-export function Link_6bf855c22332ddc310f44965c032d475 () {
-
-
-  return (
-    <RadixThemesLink asChild={true} css={{"text-decoration": "none", "&:hover": "none", "cursor": "url('cursor/cursorclick.png'), pointer"}} target={isTrue(true) ? `_blank` : ``}>
-  <NextLink href={`https://github.com/DAVIDS2405`} passHref={true}>
-  <LucideGithubIcon css={{"color": "white", "border": "2px solid", "borderColor": "white", "borderRadius": "100%", "padding": "0.082rem"}} size={35}/>
-</NextLink>
-</RadixThemesLink>
-  )
-}
-
-export function Link_901215f6aec06cceb9c5fb307c72086c () {
-
-
-  return (
-    <RadixThemesLink asChild={true} css={{"width": "100%", "text-decoration": "none", "&:hover": "none", "cursor": "url('cursor/cursorclick.png'), pointer"}} target={isTrue(true) ? `_blank` : ``}>
-  <NextLink href={`https://www.youtube.com/@d4vid924`} passHref={true}>
-  <RadixThemesButton css={{"padding": "1rem", "width": "100%", "height": "100%", "display": "flex", "alignItems": "center", "justify-content": "start", "whiteSpace": "normal", "color": "#FFFFFF", "background-color": "#171F26", "&:hover": {"background-color": "#087EC4"}, "cursor": "url('cursor/cursorclick.png'), pointer"}} radius={`large`}>
-  <RadixThemesFlex align={`center`} direction={`row`} gap={`4`}>
-  <LucideYoutubeIcon css={{"color": "var(--current-color)"}} size={30}/>
-  <RadixThemesFlex align={`start`} direction={`column`} gap={`2`}>
-  <RadixThemesText as={`p`} css={{"color": "#FFFFFF"}} size={`2`}>
-  {`YouTube`}
-</RadixThemesText>
-  <RadixThemesText as={`p`} css={{"color": "#C3C7CB"}} size={`1`}>
-  {`Tutoriales semanales`}
-</RadixThemesText>
-</RadixThemesFlex>
-</RadixThemesFlex>
-</RadixThemesButton>
-</NextLink>
-</RadixThemesLink>
-  )
-}
-
-export function Link_2e43ca7e45bbdb194b7fba7089930c67 () {
-
-
-  return (
-    <RadixThemesLink asChild={true} css={{"color": "white", "text-decoration": "none", "&:hover": "none", "cursor": "url('cursor/cursorclick.png'), pointer"}} target={isTrue(true) ? `_blank` : ``}>
-  <NextLink href={`https://david-dev.dev/`} passHref={true}>
-  <RadixThemesText as={`p`}>
-  {`David`}
-</RadixThemesText>
-</NextLink>
-</RadixThemesLink>
-  )
-}
-
 export function Link_e3788ff3eea2776ffdbbbaa23d8d1731 () {
 
 
@@ -157,25 +167,15 @@ export function Link_e3788ff3eea2776ffdbbbaa23d8d1731 () {
   )
 }
 
-export function Link_7f95acf1645cfa0e73b7a5935803984c () {
+export function Link_2e43ca7e45bbdb194b7fba7089930c67 () {
 
 
   return (
-    <RadixThemesLink asChild={true} css={{"width": "100%", "text-decoration": "none", "&:hover": "none", "cursor": "url('cursor/cursorclick.png'), pointer"}} target={isTrue(true) ? `_blank` : ``}>
-  <NextLink href={`https://www.twitch.tv/david2405s`} passHref={true}>
-  <RadixThemesButton css={{"padding": "1rem", "width": "100%", "height": "100%", "display": "flex", "alignItems": "center", "justify-content": "start", "whiteSpace": "normal", "color": "#FFFFFF", "background-color": "#171F26", "&:hover": {"background-color": "#087EC4"}, "cursor": "url('cursor/cursorclick.png'), pointer"}} radius={`large`}>
-  <RadixThemesFlex align={`center`} direction={`row`} gap={`4`}>
-  <LucideTwitchIcon css={{"color": "var(--current-color)"}} size={30}/>
-  <RadixThemesFlex align={`start`} direction={`column`} gap={`2`}>
-  <RadixThemesText as={`p`} css={{"color": "#FFFFFF"}} size={`2`}>
-  {`Twitch`}
+    <RadixThemesLink asChild={true} css={{"color": "white", "text-decoration": "none", "&:hover": "none", "cursor": "url('cursor/cursorclick.png'), pointer"}} target={isTrue(true) ? `_blank` : ``}>
+  <NextLink href={`https://david-dev.dev/`} passHref={true}>
+  <RadixThemesText as={`p`}>
+  {`David`}
 </RadixThemesText>
-  <RadixThemesText as={`p`} css={{"color": "#C3C7CB"}} size={`1`}>
-  {`Directos sobre programación`}
-</RadixThemesText>
-</RadixThemesFlex>
-</RadixThemesFlex>
-</RadixThemesButton>
 </NextLink>
 </RadixThemesLink>
   )
