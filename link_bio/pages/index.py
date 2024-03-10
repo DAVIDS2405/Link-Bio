@@ -4,10 +4,18 @@ from ..components.Navbar import navbar
 from ..views.Hero import hero
 from ..components.Footer import footer
 from ..views.Links import link
+from ..utils import utils as utils
+from ..routes.routes import Route
 
 
+@rx.page(
+    route=Route.INDEX.value,
+    title=utils.index_title,
+    description=utils.index_description,
+)
 def index() -> rx.Component:
     return rx.box(
+        utils.lang(),
         navbar(),
         rx.center(
             rx.vstack(

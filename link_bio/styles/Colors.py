@@ -3,9 +3,9 @@ from enum import Enum
 
 class Base_Colors(Enum):
     PRIMARY = '#FFFFFF'
-    SECONDARY = '#F08B8B'
-    BACKGROUND = '#000000'
-    CONTENT = '#23313D'
+    SECONDARY = '#087EC4'
+    BACKGROUND = '#0C151D'
+    CONTENT = '#171F26'
 
 
 class Text_Colors(Enum):

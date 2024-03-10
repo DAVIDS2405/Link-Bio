@@ -62,9 +62,6 @@ BASE_STYLE = {
         "font-family": "PressStart2P",
         "font-weight": "normal",
     },
-    rx.icon: {
-        "cursor": "url('cursor/cursorclick.png'), pointer",
-    },
     rx.button: {
         'width': '100%',
         'height': '100%',
@@ -77,6 +74,7 @@ BASE_STYLE = {
         "background-color": color.CONTENT.value,
         "_hover": {
             "background-color": color.SECONDARY.value,
+
         },
         "cursor": "url('cursor/cursorclick.png'), pointer",
     },
