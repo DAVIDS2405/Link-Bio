@@ -14,6 +14,16 @@ import NextHead from "next/head"
 
 
 
+const pulse = keyframes`
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+`
+
+
 export function Fragment_ac0b06893fc1b15016f3e0532508036d () {
   const [addEvents, connectErrors] = useContext(EventLoopContext);
 
@@ -42,16 +52,6 @@ export function Fragment_ac0b06893fc1b15016f3e0532508036d () {
 </Fragment>
   )
 }
-
-const pulse = keyframes`
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-`
-
 
 export function Fragment_966c0378eb9d65bdfb5286644be9b831 () {
   const [addEvents, connectErrors] = useContext(EventLoopContext);
