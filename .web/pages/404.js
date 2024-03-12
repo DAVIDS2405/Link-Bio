@@ -53,7 +53,12 @@ export function Fragment_ac0b06893fc1b15016f3e0532508036d () {
   )
 }
 
+<<<<<<< HEAD
 export function Fragment_e9a05c105aa9215aeba52aeec8fe2e76 () {
+=======
+export function Fragment_966c0378eb9d65bdfb5286644be9b831 () {
+  const [addEvents, connectErrors] = useContext(EventLoopContext);
+>>>>>>> 1af06be53d44f6403912f3fb7dd2671a85f98a38
   const state = useContext(StateContexts.state)
   const [addEvents, connectErrors] = useContext(EventLoopContext);
 
