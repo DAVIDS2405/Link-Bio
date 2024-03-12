@@ -2,6 +2,7 @@ import reflex as rx
 import datetime
 from ..styles import Styles as styles
 from ..styles.Colors import Text_Colors as text_color
+from ..styles.Colors import Base_Colors as color
 
 
 def footer() -> rx.Component:
@@ -17,7 +18,7 @@ def footer() -> rx.Component:
                 size=styles.Text_Size.SMALL.value,
             ),
             rx.image(),
-            background='black',
+            background=color.CONTENT.value,
             align='center',
             text_align='center',
             justify='center',
