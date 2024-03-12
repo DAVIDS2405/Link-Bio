@@ -15,14 +15,14 @@ def link() -> rx.Component:
         ),
         link_button(
             'YouTube',
-            'Tutoriales semanales',
+            'Tutoriales sobre programación',
             Constants.YOUTUBE_URL,
             'youtube'
         ),
 
         link_button(
             'Tiktok',
-            'Cortos sobre informática',
+            'Cortos sobre desarrollo de software y datos curiosos',
             Constants.TIKTOK_URL,
             'music-2'
         ),

@@ -2,4 +2,6 @@
 *.py[cod]
 .venv/
 .web
+.env
+public/
 __pycache__/

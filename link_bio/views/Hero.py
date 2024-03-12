@@ -3,19 +3,42 @@ from ..styles import Styles as styles
 from ..components.Link_icon import link_icon
 from ..components.Info_text import info_text
 from ..styles.Colors import Text_Colors as text_color
-from ..styles.Colors import Base_Colors as color
+from ..utils import Constants as constants
+from ..components.Link_button import link_button
 
 
-def hero() -> rx.Component:
+def hero(live=False, live_title='') -> rx.Component:
     return rx.vstack(
         rx.hstack(
-            rx.avatar(
-                src='https://avatars.githubusercontent.com/u/85196670?v=4',
-                fallback='David Basantes',
-                radius='full',
-                size=styles.Avatar_Size.BIG.value,
-                width='auto',
+            rx.box(
+                rx.cond(
+                    live,
+                    rx.link(
+                        rx.icon(
+                            'twitch',
+                            color='white',
+                            size=20,
 
+                        ),
+                        href=constants.TWITCH_URL,
+                        border_radius='50%',
+                        background='#9146FF',
+                        position='absolute',
+                        padding='0.3rem',
+                        bottom="0",
+                        right="0"
+                    ),
+                ),
+                rx.avatar(
+                    src='https://avatars.githubusercontent.com/u/85196670?v=4',
+                    fallback='David Basantes',
+                    radius='full',
+                    size=styles.Avatar_Size.BIG.value,
+                    width='auto',
+
+
+                ),
+                position="relative",
             ),
             rx.vstack(
                 rx.heading(
@@ -45,7 +68,14 @@ def hero() -> rx.Component:
             rx.spacer(),
             width='100%',
         ),
-
+        rx.cond(live,
+                link_button(
+                    "En directo",
+                    live_title,
+                    "",
+                    "twitch",
+                )
+                ),
         rx.text("""Soy desarrollador de software desde hace 1 año.
                 Actualmente trabajo como Jr full-stack developer.
                 Además creo contenido formativo sobre programación y tecnología en redes.
