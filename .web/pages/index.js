@@ -49,44 +49,29 @@ export function Link_6bf855c22332ddc310f44965c032d475 () {
   )
 }
 
-export function Fragment_ac0b06893fc1b15016f3e0532508036d () {
-  const [addEvents, connectErrors] = useContext(EventLoopContext);
+export function Link_bf80e492e22c87b1224b6ba4f9f3480e () {
 
 
   return (
-    <Fragment>
-  {isTrue(connectErrors.length >= 2) ? (
-  <Fragment>
-  <RadixThemesDialog.Root css={{"zIndex": 9999}} open={connectErrors.length >= 2}>
-  <RadixThemesDialog.Content>
-  <RadixThemesDialog.Title>
-  {`Connection Error`}
-</RadixThemesDialog.Title>
-  <RadixThemesText as={`p`}>
-  {`Cannot connect to server: `}
-  {(connectErrors.length > 0) ? connectErrors[connectErrors.length - 1].message : ''}
-  {`. Check if server is reachable at `}
-  {getBackendURL(env.EVENT).href}
+    <RadixThemesLink asChild={true} css={{"width": "100%", "text-decoration": "none", "&:hover": "none", "cursor": "url('cursor/cursorclick.png'), pointer"}} target={isTrue(true) ? `_blank` : ``}>
+  <NextLink href={`mailto:sebastian2405lucero@hotmail.com`} passHref={true}>
+  <RadixThemesButton css={{"padding": "1rem", "width": "100%", "height": "100%", "display": "flex", "alignItems": "center", "justify-content": "start", "whiteSpace": "normal", "color": "#FFFFFF", "background-color": "#171F26", "&:hover": {"background-color": "#087EC4"}, "cursor": "url('cursor/cursorclick.png'), pointer"}} radius={`large`}>
+  <RadixThemesFlex align={`center`} direction={`row`} gap={`4`}>
+  <LucideMailIcon css={{"color": "var(--current-color)"}} size={30}/>
+  <RadixThemesFlex align={`start`} direction={`column`} gap={`2`}>
+  <RadixThemesText as={`p`} css={{"color": "#FFFFFF"}} size={`2`}>
+  {`Email`}
 </RadixThemesText>
-</RadixThemesDialog.Content>
-</RadixThemesDialog.Root>
-</Fragment>
-) : (
-  <Fragment/>
-)}
-</Fragment>
+  <RadixThemesText as={`p`} css={{"color": "#C3C7CB"}} size={`1`}>
+  {`Correo electrónico principal`}
+</RadixThemesText>
+</RadixThemesFlex>
+</RadixThemesFlex>
+</RadixThemesButton>
+</NextLink>
+</RadixThemesLink>
   )
 }
-
-const pulse = keyframes`
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-`
-
 
 export function Link_204cac4b30f87b78c0dd9afe96b27742 () {
 
@@ -103,30 +88,6 @@ export function Link_204cac4b30f87b78c0dd9afe96b27742 () {
 </RadixThemesText>
   <RadixThemesText as={`p`} css={{"color": "#C3C7CB"}} size={`1`}>
   {`Cuenta oficial`}
-</RadixThemesText>
-</RadixThemesFlex>
-</RadixThemesFlex>
-</RadixThemesButton>
-</NextLink>
-</RadixThemesLink>
-  )
-}
-
-export function Link_7f95acf1645cfa0e73b7a5935803984c () {
-
-
-  return (
-    <RadixThemesLink asChild={true} css={{"width": "100%", "text-decoration": "none", "&:hover": "none", "cursor": "url('cursor/cursorclick.png'), pointer"}} target={isTrue(true) ? `_blank` : ``}>
-  <NextLink href={`https://www.twitch.tv/david2405s`} passHref={true}>
-  <RadixThemesButton css={{"padding": "1rem", "width": "100%", "height": "100%", "display": "flex", "alignItems": "center", "justify-content": "start", "whiteSpace": "normal", "color": "#FFFFFF", "background-color": "#171F26", "&:hover": {"background-color": "#087EC4"}, "cursor": "url('cursor/cursorclick.png'), pointer"}} radius={`large`}>
-  <RadixThemesFlex align={`center`} direction={`row`} gap={`4`}>
-  <LucideTwitchIcon css={{"color": "var(--current-color)"}} size={30}/>
-  <RadixThemesFlex align={`start`} direction={`column`} gap={`2`}>
-  <RadixThemesText as={`p`} css={{"color": "#FFFFFF"}} size={`2`}>
-  {`Twitch`}
-</RadixThemesText>
-  <RadixThemesText as={`p`} css={{"color": "#C3C7CB"}} size={`1`}>
-  {`Directos sobre programación`}
 </RadixThemesText>
 </RadixThemesFlex>
 </RadixThemesFlex>
@@ -160,20 +121,6 @@ export function Link_ccc8739b9797ac615e92fed6865b24af () {
   )
 }
 
-export function Link_2e43ca7e45bbdb194b7fba7089930c67 () {
-
-
-  return (
-    <RadixThemesLink asChild={true} css={{"color": "white", "text-decoration": "none", "&:hover": "none", "cursor": "url('cursor/cursorclick.png'), pointer"}} target={isTrue(true) ? `_blank` : ``}>
-  <NextLink href={`https://david-dev.dev/`} passHref={true}>
-  <RadixThemesText as={`p`}>
-  {`David`}
-</RadixThemesText>
-</NextLink>
-</RadixThemesLink>
-  )
-}
-
 export function Link_e3788ff3eea2776ffdbbbaa23d8d1731 () {
 
 
@@ -195,6 +142,26 @@ export function Link_e3788ff3eea2776ffdbbbaa23d8d1731 () {
 </RadixThemesButton>
 </NextLink>
 </RadixThemesLink>
+  )
+}
+
+export function Fragment_e9a05c105aa9215aeba52aeec8fe2e76 () {
+  const state = useContext(StateContexts.state)
+  const [addEvents, connectErrors] = useContext(EventLoopContext);
+
+
+  return (
+    <Fragment>
+  {isTrue(((!state.is_hydrated) || (connectErrors.length > 0))) ? (
+  <Fragment>
+  <LucideWifiOffIcon css={{"color": "crimson", "zIndex": 9999, "position": "fixed", "bottom": "30px", "right": "30px", "animation": `${pulse} 1s infinite`}} size={32}>
+  {`wifi_off`}
+</LucideWifiOffIcon>
+</Fragment>
+) : (
+  <Fragment/>
+)}
+</Fragment>
   )
 }
 
@@ -231,27 +198,42 @@ export function Fragment_72783e110b63502aba5957cd075c8cae () {
   )
 }
 
-export function Link_bf80e492e22c87b1224b6ba4f9f3480e () {
+const pulse = keyframes`
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+`
+
+
+export function Fragment_ac0b06893fc1b15016f3e0532508036d () {
+  const [addEvents, connectErrors] = useContext(EventLoopContext);
 
 
   return (
-    <RadixThemesLink asChild={true} css={{"width": "100%", "text-decoration": "none", "&:hover": "none", "cursor": "url('cursor/cursorclick.png'), pointer"}} target={isTrue(true) ? `_blank` : ``}>
-  <NextLink href={`mailto:sebastian2405lucero@hotmail.com`} passHref={true}>
-  <RadixThemesButton css={{"padding": "1rem", "width": "100%", "height": "100%", "display": "flex", "alignItems": "center", "justify-content": "start", "whiteSpace": "normal", "color": "#FFFFFF", "background-color": "#171F26", "&:hover": {"background-color": "#087EC4"}, "cursor": "url('cursor/cursorclick.png'), pointer"}} radius={`large`}>
-  <RadixThemesFlex align={`center`} direction={`row`} gap={`4`}>
-  <LucideMailIcon css={{"color": "var(--current-color)"}} size={30}/>
-  <RadixThemesFlex align={`start`} direction={`column`} gap={`2`}>
-  <RadixThemesText as={`p`} css={{"color": "#FFFFFF"}} size={`2`}>
-  {`Email`}
+    <Fragment>
+  {isTrue(connectErrors.length >= 2) ? (
+  <Fragment>
+  <RadixThemesDialog.Root css={{"zIndex": 9999}} open={connectErrors.length >= 2}>
+  <RadixThemesDialog.Content>
+  <RadixThemesDialog.Title>
+  {`Connection Error`}
+</RadixThemesDialog.Title>
+  <RadixThemesText as={`p`}>
+  {`Cannot connect to server: `}
+  {(connectErrors.length > 0) ? connectErrors[connectErrors.length - 1].message : ''}
+  {`. Check if server is reachable at `}
+  {getBackendURL(env.EVENT).href}
 </RadixThemesText>
-  <RadixThemesText as={`p`} css={{"color": "#C3C7CB"}} size={`1`}>
-  {`Correo electrónico principal`}
-</RadixThemesText>
-</RadixThemesFlex>
-</RadixThemesFlex>
-</RadixThemesButton>
-</NextLink>
-</RadixThemesLink>
+</RadixThemesDialog.Content>
+</RadixThemesDialog.Root>
+</Fragment>
+) : (
+  <Fragment/>
+)}
+</Fragment>
   )
 }
 
@@ -279,23 +261,41 @@ export function Link_edceee9d53188173110dfc319cbc7e22 () {
   )
 }
 
-export function Fragment_966c0378eb9d65bdfb5286644be9b831 () {
-  const [addEvents, connectErrors] = useContext(EventLoopContext);
-  const state = useContext(StateContexts.state)
+export function Link_2e43ca7e45bbdb194b7fba7089930c67 () {
 
 
   return (
-    <Fragment>
-  {isTrue(((!state.is_hydrated) || (connectErrors.length > 0))) ? (
-  <Fragment>
-  <LucideWifiOffIcon css={{"color": "crimson", "zIndex": 9999, "position": "fixed", "bottom": "30px", "right": "30px", "animation": `${pulse} 1s infinite`}} size={32}>
-  {`wifi_off`}
-</LucideWifiOffIcon>
-</Fragment>
-) : (
-  <Fragment/>
-)}
-</Fragment>
+    <RadixThemesLink asChild={true} css={{"color": "white", "text-decoration": "none", "&:hover": "none", "cursor": "url('cursor/cursorclick.png'), pointer"}} target={isTrue(true) ? `_blank` : ``}>
+  <NextLink href={`https://david-dev.dev/`} passHref={true}>
+  <RadixThemesText as={`p`}>
+  {`David`}
+</RadixThemesText>
+</NextLink>
+</RadixThemesLink>
+  )
+}
+
+export function Link_7f95acf1645cfa0e73b7a5935803984c () {
+
+
+  return (
+    <RadixThemesLink asChild={true} css={{"width": "100%", "text-decoration": "none", "&:hover": "none", "cursor": "url('cursor/cursorclick.png'), pointer"}} target={isTrue(true) ? `_blank` : ``}>
+  <NextLink href={`https://www.twitch.tv/david2405s`} passHref={true}>
+  <RadixThemesButton css={{"padding": "1rem", "width": "100%", "height": "100%", "display": "flex", "alignItems": "center", "justify-content": "start", "whiteSpace": "normal", "color": "#FFFFFF", "background-color": "#171F26", "&:hover": {"background-color": "#087EC4"}, "cursor": "url('cursor/cursorclick.png'), pointer"}} radius={`large`}>
+  <RadixThemesFlex align={`center`} direction={`row`} gap={`4`}>
+  <LucideTwitchIcon css={{"color": "var(--current-color)"}} size={30}/>
+  <RadixThemesFlex align={`start`} direction={`column`} gap={`2`}>
+  <RadixThemesText as={`p`} css={{"color": "#FFFFFF"}} size={`2`}>
+  {`Twitch`}
+</RadixThemesText>
+  <RadixThemesText as={`p`} css={{"color": "#C3C7CB"}} size={`1`}>
+  {`Directos sobre programación`}
+</RadixThemesText>
+</RadixThemesFlex>
+</RadixThemesFlex>
+</RadixThemesButton>
+</NextLink>
+</RadixThemesLink>
   )
 }
 
@@ -305,7 +305,7 @@ export default function Component() {
     <Fragment>
   <Fragment>
   <div css={{"position": "fixed", "width": "100vw", "height": "0"}}>
-  <Fragment_966c0378eb9d65bdfb5286644be9b831/>
+  <Fragment_e9a05c105aa9215aeba52aeec8fe2e76/>
 </div>
   <Fragment_ac0b06893fc1b15016f3e0532508036d/>
 </Fragment>
