@@ -22,7 +22,7 @@ def index() -> rx.Component:
         rx.center(
 
             rx.vstack(
-                hero(live=Page_State.is_live, live_title=Page_State.live_title),
+                hero(live=False, live_title=""),
                 link(),
                 align='center',
                 max_width=styles.MAX_WIDTH_CONTAINER,
