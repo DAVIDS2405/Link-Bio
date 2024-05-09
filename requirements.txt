@@ -1,2 +1,2 @@
-reflex==0.4.4
-python-dotenv==1.0.1
+reflex
+python-dotenv
