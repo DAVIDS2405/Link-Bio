@@ -1,1 +1,0 @@
-export default {"styles": {"global": {":root": {}, "body": {"background-color": "#0C151D", "font-family": "PressStart2P", "font-weight": "normal", "cursor": "url('cursor/cursor.png'), default"}}}}
