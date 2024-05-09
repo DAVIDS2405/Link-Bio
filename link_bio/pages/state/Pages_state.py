@@ -1,5 +1,4 @@
 import reflex as rx
-from ...api.controller.api_controller import live
 
 
 class Page_State(rx.State):
@@ -7,6 +6,5 @@ class Page_State(rx.State):
     live_title: str
 
     async def live_status(self):
-        live_data = await live("david2405s")
         self.is_live = False
         self.live_title = ""
