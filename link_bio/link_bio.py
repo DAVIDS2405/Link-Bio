@@ -9,6 +9,6 @@ app.api.include_router(api_router.router)
 app.add_page(index, route="/")
 
 
-@app.api.get("/", include_in_schema=False)
-async def redirect_doc():
-    return RedirectResponse("/docs")
+# @app.api.get("/", include_in_schema=False)
+# async def redirect_doc():
+#     return RedirectResponse("/docs")
