@@ -8,5 +8,5 @@ class Page_State(rx.State):
 
     async def live_status(self):
         live_data = await live("david2405s")
-        self.is_live = live_data['live']
-        self.live_title = live_data['title']
+        self.is_live = False
+        self.live_title = ""
